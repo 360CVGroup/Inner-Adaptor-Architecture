@@ -68,7 +68,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 from PIL import Image
 
-checkpoint = "qihoo360/iaa-14-hf"
+checkpoint = "qihoo360/Inner-Adaptor-Architecture"
 
 model = AutoModelForCausalLM.from_pretrained(checkpoint, torch_dtype=torch.float16, device_map='cuda', trust_remote_code=True).eval()
 tokenizer = AutoTokenizer.from_pretrained(checkpoint, trust_remote_code=True)
@@ -167,14 +167,14 @@ print(outputs)
 Chat about images using IAA without the need of Gradio interface. 
 
 ```Shell
-name="qihoo360/iaa-14-hf"
+name="qihoo360/Inner-Adaptor-Architecture"
 python -m iaa.eval.infer \
     --model-path $name \
     --image-path testimg/readpanda.jpg \
     --task_type MM \
 ```
 ```Shell
-name="qihoo360/iaa-14-hf"
+name="qihoo360/Inner-Adaptor-Architecture"
 
 python -m iaa.eval.infer_interleave \
     --model-path $name \
