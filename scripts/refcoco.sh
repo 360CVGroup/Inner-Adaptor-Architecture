@@ -6,11 +6,11 @@ mkdir $save_root
 INIT_MODEL_PATH="qihoo360/"
 for SPLIT in {"REC_refcoco_unc_testA","REC_refcoco_unc_testB","REC_refcoco_unc_val",}
 do
-for name in {"iaa-14-hf",}
+for name in {"Inner-Adaptor-Architecture",}
 do
 
 
-if [ -f "./refcoco_re/iaa-14-hf.txt" ];then
+if [ -f "./refcoco_re/Inner-Adaptor-Architecture.txt" ];then
     echo "The file exists"
 else
     touch $save_root/$name.txt

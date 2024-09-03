@@ -1,5 +1,5 @@
 
-name="qihoo360/iaa-14-hf"
+name="qihoo360/Inner-Adaptor-Architecture"
 
 torchrun --master_port=7777 --nproc_per_node 8 -m iaa.eval.model_vqa_loader_llama3 \
     --model-path $name \

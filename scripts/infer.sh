@@ -1,4 +1,4 @@
-name="qihoo360/iaa-14-hf"
+name="qihoo360/Inner-Adaptor-Architecture"
 python -m iaa.eval.infer \
     --model-path $name \
     --image-path testimg/readpanda.jpg \

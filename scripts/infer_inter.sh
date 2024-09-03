@@ -1,4 +1,4 @@
-name="qihoo360/iaa-14-hf"
+name="qihoo360/Inner-Adaptor-Architecture"
 
 python -m iaa.eval.infer_interleave \
     --model-path $INIT_MODEL_PATH/$name \
