@@ -19,6 +19,7 @@ We propose a MLLM based on Inner-Adaptor Architecture (IAA). IAA demonstrates th
 
 
 ## 🔥 News
+- **[2025/04/15]** IAA has been accepted by AAAI2025! (https://ojs.aaai.org/index.php/AAAI/article/view/35400).
 - **[2024/08/29]** We put IAA on the huggingface community! [🤗](https://huggingface.co/qihoo360).
 - **[2024/08/29]** We have updated the IAA github repository, and now you can test our models!
 - **[2024/08/26]** We released the paper of [IAA: Inner-Adaptor Architecture](https://www.arxiv.org/abs/2408.12902).
